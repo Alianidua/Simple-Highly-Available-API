@@ -1,6 +1,6 @@
 # HA simple API
 
-Using `HAProxy` to make a basic `Python` `Flask` API higly available.
+Using `HAProxy` to make a basic `Python` `Flask` API higlhy available.
 
 ## Installation
 
