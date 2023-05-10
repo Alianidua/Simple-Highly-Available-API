@@ -26,14 +26,14 @@ python simple_api_2.py
 haproxy -f haproxy.cfg
 ```
 
-2. Now, you can open the following links in your browser :
+2. Open the following links in your browser :
 
 - <a href="http://localhost:5001/" target="_blank">http://localhost:5001/</a> is the first API
 - <a href="http://localhost:5002/" target="_blank">http://localhost:5002/</a> is the second API
 - <a href="http://localhost:5000/" target="_blank">http://localhost:5000/</a> is the load balancer
 
 3. By default, `HAProxy` uses the Round Robin algorithm to distribute the load.
-   So, when refreshing the page, you should alternate between simple API 1 & 2.
+   So, when refreshing the page, you should alternate between both API.
 
 4. Stop one of the API (Ctrl+C). Now, refreshing the page will always redirect to the same API.
 
